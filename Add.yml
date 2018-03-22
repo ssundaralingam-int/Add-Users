@@ -1,0 +1,4 @@
+- hosts: smtp
+  sudo: true
+  tasks:
+    - script: /useradd.sh
